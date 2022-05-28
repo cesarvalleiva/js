@@ -223,10 +223,7 @@ const inicioSesion = (event) => {
     //     console.log('iniciando sesión');
     // }
     console.log('iniciando sesión');
-    limpieza()
-}
-
-const limpieza = () => {
     usuario.value = ""
     pass.value = ""
 }
+
